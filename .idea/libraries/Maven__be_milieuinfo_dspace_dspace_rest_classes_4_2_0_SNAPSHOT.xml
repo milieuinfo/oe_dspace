@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: be.milieuinfo.dspace:dspace-rest:classes:4.2.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/be/milieuinfo/dspace/dspace-rest/4.2.0-SNAPSHOT/dspace-rest-4.2.0-20150427.084805-52-classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/be/milieuinfo/dspace/dspace-rest/4.2.0-SNAPSHOT/dspace-rest-4.2.0-20150427.084805-52-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/be/milieuinfo/dspace/dspace-rest/4.2.0-SNAPSHOT/dspace-rest-4.2.0-20150427.084805-52-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

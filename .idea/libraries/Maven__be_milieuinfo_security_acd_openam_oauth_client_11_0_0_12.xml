@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: be.milieuinfo.security:acd-openam-oauth-client:11.0.0.12">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/be/milieuinfo/security/acd-openam-oauth-client/11.0.0.12/acd-openam-oauth-client-11.0.0.12.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/be/milieuinfo/security/acd-openam-oauth-client/11.0.0.12/acd-openam-oauth-client-11.0.0.12-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/be/milieuinfo/security/acd-openam-oauth-client/11.0.0.12/acd-openam-oauth-client-11.0.0.12-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

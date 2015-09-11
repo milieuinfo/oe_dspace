@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: be.milieuinfo.framework:core-log:2.1.2">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/be/milieuinfo/framework/core-log/2.1.2/core-log-2.1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/be/milieuinfo/framework/core-log/2.1.2/core-log-2.1.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/be/milieuinfo/framework/core-log/2.1.2/core-log-2.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
