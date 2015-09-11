@@ -1,0 +1,8 @@
+                                 <a>
+                                      <xsl:attribute name="href">
+                                          <xsl:value-of
+                                              select="concat($context-path,'/discover?filtertype=series&amp;filter_relational_operator=equals&amp;filter=')"/>
+                                          <xsl:copy-of select="."/>
+                                      </xsl:attribute>
+                                      <xsl:value-of select="text()"/>
+                                  </a>

@@ -1,0 +1,185 @@
+@charset "UTF-8";
+/* line 4, ../scss/oe_dspace.scss */
+.top-bar .ds-trail-link, .top-bar .ds-trail-arrow {
+  color: #fff;
+  line-height: 45px;
+  padding: 0 15px;
+  display: block;
+}
+
+/* line 12, ../scss/oe_dspace.scss */
+.panel {
+  word-wrap: break-word;
+}
+/* line 14, ../scss/oe_dspace.scss */
+.panel .ds-option-set-head {
+  background-color: #fff;
+  border: 0px;
+  color: #753f7f !important;
+  font-size: 1.56em;
+}
+/* line 20, ../scss/oe_dspace.scss */
+.panel ul.ds-simple-list {
+  list-style: outside none none;
+}
+/* line 23, ../scss/oe_dspace.scss */
+.panel ul.ds-simple-list li:before {
+  color: #b05dbf;
+  content: "•";
+  left: 0;
+  position: absolute;
+}
+/* line 30, ../scss/oe_dspace.scss */
+.panel ul.ds-simple-list li {
+  padding-left: 1em;
+  position: relative;
+}
+/* line 34, ../scss/oe_dspace.scss */
+.panel div.ds-option-set {
+  border: 0px;
+}
+/* line 37, ../scss/oe_dspace.scss */
+.panel fieldset {
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+/* line 42, ../scss/oe_dspace.scss */
+.panel fieldset #aspect_discovery_SimpleSearch_field_query, .panel fieldset .ds-text-field {
+  box-sizing: border-box;
+  padding: 0 0 0 10px;
+  width: 100%;
+}
+/* line 47, ../scss/oe_dspace.scss */
+.panel fieldset #aspect_discovery_SimpleSearch_field_query {
+  height: 34px;
+}
+/* line 50, ../scss/oe_dspace.scss */
+.panel fieldset .ds-button-field:before {
+  content: "";
+  display: block;
+  height: 44px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 0;
+}
+/* line 59, ../scss/oe_dspace.scss */
+.panel fieldset .ds-button-field {
+  display: inline-block;
+  background-color: #944EA1;
+  border-color: #763e81;
+  border-style: solid;
+  border-width: 0px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Flanders Art Sans",Arial,sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0 0 1.25rem;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 300ms ease-out 0s;
+  padding: 8px 10px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+/* line 84, ../scss/oe_dspace.scss */
+.panel fieldset#aspect_eperson_EditProfile_list_subscriptions .ds-text-field, .panel fieldset#aspect_submission_StepTransformer_list_submit-describe .ds-text-field, .panel fieldset#aspect_submission_StepTransformer_list_submit-upload-new .ds-text-field, .panel fieldset#aspect_submission_StepTransformer_list_submit-review .ds-text-field, .panel fieldset.ds-form-list .ds-text-field, .panel table .ds-text-field {
+  margin-bottom: 0rem;
+}
+/* line 87, ../scss/oe_dspace.scss */
+.panel fieldset#aspect_eperson_EditProfile_list_subscriptions .ds-button-field, .panel fieldset#aspect_submission_StepTransformer_list_submit-describe .ds-button-field, .panel fieldset#aspect_submission_StepTransformer_list_submit-upload-new .ds-button-field, .panel fieldset#aspect_submission_StepTransformer_list_submit-review .ds-button-field, .panel fieldset.ds-form-list .ds-button-field, .panel table .ds-button-field {
+  position: relative;
+}
+/* line 90, ../scss/oe_dspace.scss */
+.panel fieldset#aspect_eperson_EditProfile_list_subscriptions select, .panel fieldset#aspect_submission_StepTransformer_list_submit-describe select, .panel fieldset#aspect_submission_StepTransformer_list_submit-upload-new select, .panel fieldset#aspect_submission_StepTransformer_list_submit-review select, .panel fieldset.ds-form-list select, .panel table select {
+  padding: 0 0 0 10px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 0rem;
+  height: 37px;
+  display: block;
+  width: 150px;
+}
+/* line 99, ../scss/oe_dspace.scss */
+.panel fieldset#aspect_eperson_EditProfile_list_subscriptions select.multiple, .panel fieldset#aspect_submission_StepTransformer_list_submit-describe select.multiple, .panel fieldset#aspect_submission_StepTransformer_list_submit-upload-new select.multiple, .panel fieldset#aspect_submission_StepTransformer_list_submit-review select.multiple, .panel fieldset.ds-form-list select.multiple, .panel table select.multiple {
+  display: block;
+  padding: 6px 4px;
+  box-sizing: content-box;
+  height: 75px;
+}
+/* line 105, ../scss/oe_dspace.scss */
+.panel fieldset#aspect_eperson_EditProfile_list_subscriptions input, .panel fieldset#aspect_submission_StepTransformer_list_submit-describe input, .panel fieldset#aspect_submission_StepTransformer_list_submit-upload-new input, .panel fieldset#aspect_submission_StepTransformer_list_submit-review input, .panel fieldset.ds-form-list input, .panel table input {
+  margin-top: 10px;
+}
+/* line 109, ../scss/oe_dspace.scss */
+.panel fieldset#aspect_eperson_EditProfile_list_subscriptions .ds-form-label, .panel fieldset#aspect_submission_StepTransformer_list_submit-describe .ds-form-label, .panel fieldset#aspect_submission_StepTransformer_list_submit-upload-new .ds-form-label, .panel fieldset#aspect_submission_StepTransformer_list_submit-review .ds-form-label, .panel fieldset.ds-form-list .ds-form-label, .panel table .ds-form-label {
+  margin-bottom: 15px;
+  padding-top: 25px;
+}
+/* line 114, ../scss/oe_dspace.scss */
+.panel fieldset#aspect_eperson_EditProfile_list_subscriptions li.ds-form-item, .panel fieldset#aspect_submission_StepTransformer_list_submit-describe li.ds-form-item, .panel fieldset#aspect_submission_StepTransformer_list_submit-upload-new li.ds-form-item, .panel fieldset#aspect_submission_StepTransformer_list_submit-review li.ds-form-item, .panel fieldset.ds-form-list li.ds-form-item, .panel table li.ds-form-item {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+/* line 122, ../scss/oe_dspace.scss */
+.panel fieldset#aspect_eperson_EditProfile_list_form ol, .panel fieldset#aspect_eperson_EditProfile_list_form li, .panel fieldset#aspect_submission_StepTransformer_list_submit-review ol, .panel fieldset#aspect_submission_StepTransformer_list_submit-review li {
+  list-style: none;
+}
+/* line 128, ../scss/oe_dspace.scss */
+.panel ul#aspect_submission_StepTransformer_list_submit-progress .button {
+  background: none;
+}
+/* line 134, ../scss/oe_dspace.scss */
+.panel #aspect_eperson_PasswordLogin_div_login li input {
+  width: 250px;
+}
+/* line 141, ../scss/oe_dspace.scss */
+.panel .ds-interactive-div ul li:before, .panel .ds-interactive-div ul li {
+  content: "";
+}
+/* line 146, ../scss/oe_dspace.scss */
+.panel .pane {
+  background: #fff;
+}
+/* line 151, ../scss/oe_dspace.scss */
+.panel table .ds-button-field, .panel p .ds-button-field {
+  display: inline-block;
+  background-color: #944EA1;
+  border-color: #763e81;
+  border-style: solid;
+  border-width: 0px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Flanders Art Sans",Arial,sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 300ms ease-out 0s;
+  padding: 8px 10px;
+  position: relative;
+}
+/* line 172, ../scss/oe_dspace.scss */
+.panel table.discovery-filters input.ds-text-field {
+  margin-top: 10px;
+}
+/* line 176, ../scss/oe_dspace.scss */
+.panel table.discovery-filters tr.search-filter input.filter-add {
+  visibility: visible;
+}
+/* line 181, ../scss/oe_dspace.scss */
+.panel table.discovery-filters tr.apply-filter input {
+  height: 35px;
+}
+/* line 185, ../scss/oe_dspace.scss */
+.panel table.discovery-filters input.filter-control {
+  margin: 0px;
+}
