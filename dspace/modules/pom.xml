@@ -1,0 +1,42 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+    <groupId>be.milieuinfo.oe.dspace</groupId>
+	<artifactId>modules</artifactId>
+	<packaging>pom</packaging>
+	<name>DSpace Addon Modules</name>
+	<description>DSpace Addon Modules</description>
+
+	<parent>
+		<groupId>be.milieuinfo.oe.dspace</groupId>
+		<artifactId>dspace-parent</artifactId>
+		<version>4.2.0-SNAPSHOT</version>
+		<relativePath>../../pom.xml</relativePath>
+	</parent>
+
+    <properties>
+        <!-- This is the path to the root [dspace-src] directory. -->
+        <root.basedir>${basedir}/../..</root.basedir>
+    </properties>
+
+
+    <!-- 
+         List of enabled DSpace "addon" / local customization Modules to build/install.
+         To disable building of modules, you can use the Maven '-P' commandline 
+         option along with the profile's id.  For example, the following tells
+         Maven to *disable* building of 'dspace-oai' and 'dspace-lni' modules:
+         'mvn package -P !dspace-oai,!dspace-lni'
+         
+         Also note that the profile IDs below match the profile IDs of the source
+         modules in [dspace-src]/pom.xml, so the above command will also disable the
+         compiling of the corresponding source module.
+    -->
+    <profiles>
+        <profile>
+            <id>dspace-xmlui</id>
+            <activation><file><exists>xmlui/pom.xml</exists></file></activation>
+            <modules>
+                <module>xmlui</module>
+            </modules>
+        </profile>
+    </profiles>
+</project>
