@@ -38,5 +38,12 @@
                 <module>xmlui</module>
             </modules>
         </profile>
+          <profile>
+            <id>dspace-oai</id>
+            <activation><file><exists>oai/pom.xml</exists></file></activation>
+            <modules>
+                <module>oai</module>
+            </modules>
+        </profile>
     </profiles>
 </project>

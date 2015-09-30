@@ -81,6 +81,7 @@
         <moduleSet>
             <includes>
                 <include>be.milieuinfo.oe.dspace.modules:xmlui:war:*</include>
+                <include>be.milieuinfo.oe.dspace.modules:oai:war:*</include>
             </includes>
             <binaries>
                 <includeDependencies>false</includeDependencies>
