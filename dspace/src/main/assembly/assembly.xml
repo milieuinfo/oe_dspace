@@ -58,7 +58,7 @@
         </fileSet>
         <!-- Copy over all module configs & filter them -->
         <fileSet>
-            <outputDirectory>apps/dspace</outputDirectory>
+            <outputDirectory>${artifactId}-${version}/apps/dspace</outputDirectory>
             <includes>
                 <include>config/modules/**</include>
             </includes>

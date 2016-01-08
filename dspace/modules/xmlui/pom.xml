@@ -61,8 +61,8 @@
                      </excludes>
                   </overlay>
                   <overlay>
-                     <groupId>org.dspace</groupId>
-                     <artifactId>dspace-xmlui</artifactId>
+                      <groupId>be.milieuinfo.dspace.modules</groupId>
+                     <artifactId>xmlui</artifactId>
                   </overlay>
                </overlays>
             </configuration>
@@ -126,8 +126,9 @@
 
       <!-- DSpace XMLUI Webapp -->
       <dependency>
-         <groupId>org.dspace</groupId>
-         <artifactId>dspace-xmlui</artifactId>
+          <groupId>be.milieuinfo.dspace.modules</groupId>
+          <artifactId>xmlui</artifactId>
+           <version>${project.version}</version>
          <type>war</type>
       </dependency>
 
