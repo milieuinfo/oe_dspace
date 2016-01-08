@@ -94,7 +94,18 @@
    </profiles>
 
    <dependencies>
-
+      <dependency>
+          <groupId>be.milieuinfo.dspace.modules</groupId>
+          <artifactId>xmlui</artifactId>
+           <version>${project.version}</version>
+         <type>war</type>
+      </dependency>
+      <dependency>
+         <groupId>org.dspace</groupId>
+         <artifactId>dspace-xmlui-lang</artifactId>
+         <type>war</type>
+      </dependency>
+       <!--
       <dependency>
          <groupId>be.milieuinfo.webjars</groupId>
          <artifactId>huisstijl</artifactId>
@@ -117,22 +128,8 @@
            <version>${datamodel.version.number}</version>
        </dependency>
 
-      <!-- DSpace XMLUI Languages -->
-      <dependency>
-         <groupId>org.dspace</groupId>
-         <artifactId>dspace-xmlui-lang</artifactId>
-         <type>war</type>
-      </dependency>
 
-      <!-- DSpace XMLUI Webapp -->
-      <dependency>
-          <groupId>be.milieuinfo.dspace.modules</groupId>
-          <artifactId>xmlui</artifactId>
-           <version>${project.version}</version>
-         <type>war</type>
-      </dependency>
 
-      <!-- DSpace XMLUI API -->
       <dependency>
          <groupId>org.dspace</groupId>
          <artifactId>dspace-xmlui</artifactId>
@@ -145,6 +142,7 @@
          <artifactId>servlet-api</artifactId>
          <scope>provided</scope>
       </dependency>
+      -->
 
    </dependencies>
 
